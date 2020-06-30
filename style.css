@@ -1,0 +1,318 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+    background-color: #e1f3f1;
+    
+   
+    
+/* 
+    background-image: url(images3.jpg);
+    background-repeat: no-repeat !important;
+    background-size: 100% !important;  */
+    
+
+}
+
+#main{
+    margin-bottom: 20px;
+    margin-left: 16%;
+    margin-right: 16%;
+}
+
+
+img {
+    border: solid;
+    border-color: rgb(230, 148, 81);
+    border-radius: 5px;
+    margin: 0px;
+}
+#navbarSupportedContent{
+    float: right !important;
+}
+
+.navbar.navbar-light.bg-light{
+    margin: 0px !important;
+   
+    background-color: #187dc5 !important;
+}
+.navbar-brand{
+    width: 80px;
+    height: 70px;
+   
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light{
+    background-color: #187dc5 !important;
+}
+
+#operation-hour{
+    width: 100%;  
+    background-color: #e7fcfa; 
+    margin-top: 10px;  
+    padding-right: 15px;
+    padding-left: 15px; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#clientele-and-customer{
+    background-color: rgb(122, 23, 122);
+    width: 50%;
+    text-align: justify;
+    margin-left: 5px;
+}
+
+#head-operation-hour{
+    border-bottom: 1px solid #E1E1E1;
+    padding-bottom: 10px;
+}
+.operation{
+    background-color: #04a53a !important;
+}
+#client-and-customer{
+    border-bottom: 1px solid #E1E1E1;
+    padding-bottom: 10px;
+}
+.clientele{
+    background-color: #120335 !important;
+}
+#clientele-and-custome{
+    width: 100%;  
+    background-color: #e7fcfa; 
+    margin-top: 10px;  
+    padding-right: 15px;
+    padding-left: 15px; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;    
+}
+
+
+#our-services{
+    background-color: rgb(148, 219, 219);
+    text-align: center;
+}
+
+#div-clinical-chemistry{
+    background-color: tomato;
+    width: 250px;
+    flex-wrap: wrap;
+}
+#div-haematology{
+    background-color: violet; 
+    width: 250px;  
+    flex-wrap: wrap;
+}
+#div-fertility-test{
+    background-color: #8991e0;
+    width: 250px;
+    flex-wrap: wrap;
+}
+#div-serology-and-tumor-marker{
+    background-color: #a5c518;
+    width: 250px;
+    flex-wrap: wrap;
+}
+#div-microbiology{
+    background-color: #e28086;
+    width: 250px;
+    flex-wrap: wrap;
+}
+.div-head{
+    display: inline-flex;
+    justify-content: space-around;
+    margin: 7px;
+}
+#management-and-staff{
+    width: 100%;  
+    background-color: #e7fcfa; 
+    margin-top: 10px;  
+    padding-right: 15px;
+    padding-left: 15px; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.management{
+    background-color: #c5c218 !important;
+}
+
+#id-manag-and-staff{
+    border-bottom: 1px solid #E1E1E1;
+    padding-bottom: 10px;
+}
+
+#clientele-and-customer{
+    width: 100%;  
+    background-color: #e7fcfa; 
+    margin-top: 10px;  
+    padding-right: 15px;
+    padding-left: 15px; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.services{
+    list-style: circle;
+   
+}
+#for-enquiries{
+    width: 30%;
+    background-color: lawngreen;
+    border-radius: 20px;
+    text-align: left;
+    padding-left: 25px;    
+}
+
+
+footer{    
+    margin-bottom: 10px;   
+    left: 0;  
+    width: 100%;    
+    background-color: #0f0f0fb7;
+    color: white;
+    text-align: center;
+}
+
+.slider{
+    width: auto;
+    height: 500px;
+    background-image: url(image1.jpg);
+    background-repeat: no-repeat !important;
+    background-size: 100% !important;
+    animation: slide 70s infinite;
+
+}
+
+@keyframes slide{
+    10%{
+        background-image: url(image1.jpg);
+    }
+    20%{
+        background-image: url(image2.jpg);
+    }
+    30%{
+        background-image: url(image3.jpg);
+    }
+    40%{
+        background-image: url(image4.jpg);
+    }
+     50%{
+        background-image: url(image5.jpg);
+    }
+    60%{
+        background-image: url(image6.jpg);
+    }
+    70%{
+        background-image: url(image7.jpg);
+    }
+    80%{
+        background-image: url(image8.jpg);
+    }
+    90%{
+        background-image: url(image9.jpg);
+    }
+    100%{
+        background-image: url(image10.jpg);
+    }
+   
+
+}
+
+/* .slider2{
+    width: auto;
+    height: 500px;
+    background-image: url(image1.jpg);
+    background-repeat: no-repeat !important;
+    background-size: 100% !important;
+    animation: slide 20s infinite;
+
+
+
+@keyframes slide{
+    20%{
+        background-image: url(lab1.jpg);
+    }
+    40%{
+        background-image: url(lab2.jpg);
+    }
+    60%{
+        background-image: url(lab3.jpg);
+    }
+    80%{
+        background-image: url(lab4.jpg);
+    }
+     
+    100%{
+        background-image: url(lab5.jpg);
+    }
+
+}
+} */
+.container{
+    width: 100%;
+    background-color: rgb(10, 109, 112); 
+    padding-right: inherit;
+    box-shadow: 5px 5px 5px 5px rgba(34, 33, 33, 0.2);
+    
+}
+
+#company-overview{
+    width: 100%;  
+    background-color: #e7fcfa; 
+    margin-top: 10px;  
+    padding-right: 15px;
+    padding-left: 15px; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.heading-underline{
+    border-bottom: 1px solid #E1E1E1;
+    padding-bottom: 10px;
+}
+
+#areas-of-core-competence{
+    width: 100%;  
+    background-color: #e7fcfa; 
+    margin-top: 10px;  
+    padding-right: 15px;
+    padding-left: 15px; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#vission-statement{
+    width: 100%;  
+    background-color: #e7fcfa; 
+    margin-top: 10px;  
+    padding-right: 15px;
+    padding-left: 15px; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#mission-statement{
+    width: 100%;  
+    background-color: #e7fcfa; 
+    margin-top: 10px;  
+    padding-right: 15px;
+    padding-left: 15px; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.competence{
+    background-color: #35c518 !important;
+}
+.vission{
+    background-color: #e28086 !important;
+}
+.mission{
+    background-color: rgb(219, 32, 32) !important;
+}
+#opportunity{
+    width: 40%;
+}
+a:hover{
+    color: yellow !important;
+}
+
+
+
