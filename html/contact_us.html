@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Topic Labotratories</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>     
       <nav class="navbar navbar-expand-lg navbar-light bg-light">    
           <!-- Just an image -->
       <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-          <img src="topic_logo.jpg" width="80" height="70" alt="" borde>
+        <a class="navbar-brand" href="index.html">
+          <img src="../img/topic_logo.jpg" width="80" height="70" alt="" borde>
         </a>
       </nav>
         <a class="navbar-brand" href="#"></a>
@@ -21,7 +21,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
       
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="float: right !important;">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
               <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
@@ -35,7 +35,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="services.html">Services</a>
               </li>
-             
+              
               <li class="nav-item">
                 <a class="nav-link" href="contact_us.html">Contact us</a>
               </li>           
@@ -44,12 +44,46 @@
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
           </form>
-          
+         
         </div>
       </nav>
+     <main>
 
-      <h1>Test</h1>
-      
+      <article>
+        <div id="for-enquiries">
+      <h1>For enquiries</h1>
+      <p>Please, send us email on
+      <address>
+        <a href="topiclaboratory@gmail.com">topiclaboratory@gmail.com</a>
+      </address>
+    </p>
+    </div>
+    </article>
+    <div>
+      <form action="action_page.php">
+        <label for="full-name">Full name:</label> <br> 
+        <input id="full-name" type="text" placeholder="Full name" required name="full name"> <br>
+
+       <label for="email">Email: </label> <br>
+        <input id="email" type="email" placeholder="Email" required name="email"> <br>
+
+        <label for="textarea">Complains or Enquiry: </label> <br>
+         <textarea id="textarea" name="" id="" cols="30" rows="5" placeholder="Complains or Enquiry" required wrap="soft"></textarea> <br>
+
+
+         <button type="button">Submit</button>
+
+    </form>
+    </div>
+    
+  </main>
+
+  <footer>
+    
+    <p>TOPIC DIAGNOSTIC LABORATORIES, T/10, Cinema Road, Sagamu, Ogun State, Nigeria.</p>
+    <p>TEL: 08120587113, 09030856589</p>
+    </footer>
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
